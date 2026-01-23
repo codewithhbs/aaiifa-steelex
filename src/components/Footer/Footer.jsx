@@ -11,11 +11,11 @@ import {
 } from "lucide-react";
 import logo from "./aaiifa-logo.png";
 // import { FaFacebookF } from "react-icons/fa";
-import partnerpdf from "/public/pdf/Steelex-2025-Partners1.pdf";
-import invitationPdf from "/public/pdf/Invitation-to-Participate-in-A-STEEL-MAHAKUMBH-Organized-by-AIIFA-SteelEx-2025.pdf";
-import partnerBrochure from "/public/pdf/AIIFA-STEELEX-2025_BROCHURE-VIP_02.pdf";
-import invitaionLetter from '/public/pdf/Invitation-Letter.pdf'
-import greenInvitation from '/public/pdf/GreenSteel_Award_Invitation.pdf'
+import partnerpdf from "../../../public/pdf/Steelex-2025-Partners1.pdf";
+import invitationPdf from "../../../public/pdf/Invitation-to-Participate-in-A-STEEL-MAHAKUMBH-Organized-by-AIIFA-SteelEx-2025.pdf";
+import partnerBrochure from "../../../public/pdf/AIIFA-STEELEX-2025_BROCHURE-VIP_02.pdf";
+import invitaionLetter from '../../../public/pdf/Invitation-Letter.pdf'
+import greenInvitation from '../../../public/pdf/GreenSteel_Award_Invitation.pdf'
 
 const Footer = () => {
   return (

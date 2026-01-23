@@ -1,21 +1,21 @@
-import logo from "/public/image/logo.webp"; // top logo
-import kp1 from "/public/image/t1.webp";
-import kp2 from "/public/image/t2.webp";
+import logo from "../../../public/image/logo.webp"; // top logo
+import kp1 from "../../../public/image/t1.webp";
+import kp2 from "../../../public/image/t2.webp";
 
-import sa1 from "/public/image/logo-1.jpg";
-import sa2 from "/public/image/logo-2.jpg";
-import sa3 from "/public/image/logo-3.jpg";
-import sa4 from "/public/image/logo-4.jpg";
-import sa5 from "/public/image/logo-5.jpg";
-import sa6 from "/public/image/logo-6.jpg";
-import sa7 from "/public/image/logo-7.jpg";
-import sa8 from "/public/image/logo-8.jpg";
-import sa9 from "/public/image/logo-9.jpg";
-import sa10 from "/public/image/logo-10.jpg";
-import sa11 from "/public/image/logo-11.jpg";
-import sa12 from "/public/image/logo-12.jpg";
-import sa13 from "/public/image/logo-13.jpg";
-import sa14 from "/public/image/logo-14.jpg";
+import sa1 from "../../../public/image/logo-1.jpg";
+import sa2 from "../../../public/image/logo-2.jpg";
+import sa3 from "../../../public/image/logo-3.jpg";
+import sa4 from "../../../public/image/logo-4.jpg";
+import sa5 from "../../../public/image/logo-5.jpg";
+import sa6 from "../../../public/image/logo-6.jpg";
+import sa7 from "../../../public/image/logo-7.jpg";
+import sa8 from "../../../public/image/logo-8.jpg";
+import sa9 from "../../../public/image/logo-9.jpg";
+import sa10 from "../../../public/image/logo-10.jpg";
+import sa11 from "../../../public/image/logo-11.jpg";
+import sa12 from "../../../public/image/logo-12.jpg";
+import sa13 from "../../../public/image/logo-13.jpg";
+import sa14 from "../../../public/image/logo-14.jpg";
 
 const AutoScrollRow = ({ logos }) => {
   return (
