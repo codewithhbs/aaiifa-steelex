@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Background Image */}
       <img
         src={bg}
-        alt="AIFA STEELEX"
+        alt="AIIFA STEELEX"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
       />
 
@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center text-white">
 
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-wide">
-          AIFA <span className="text-green-500">STEELEX</span>{" "}
+          AIIFA <span className="text-green-500">STEELEX</span>{" "}
           <span className="text-white">2025</span>
         </h1>
 

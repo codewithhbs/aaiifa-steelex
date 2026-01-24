@@ -35,7 +35,7 @@ const Legacy = () => {
             >
               <img
                 src={img}
-                alt="AIFA Event"
+                alt="AIIFA Event"
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
               />
             </div>

@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="/" className="flex items-center h-full">
-            <img src={logo} alt="AIFA Logo" className="h-full object-contain" />
+            <img src={logo} alt="AIIFA Logo" className="h-full object-contain" />
           </a>
 
           {/* Desktop Menu */}

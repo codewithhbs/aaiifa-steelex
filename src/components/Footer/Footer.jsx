@@ -25,7 +25,7 @@ const Footer = () => {
           {/* Left */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="AIFA" className="h-full w-auto" />
+              <img src={logo} alt="AIIFA" className="h-full w-auto" />
             </div>
 
             <p className="text-sm text-gray-400 max-w-sm">
@@ -144,7 +144,7 @@ const Footer = () => {
 
               <li className="flex gap-3">
                 <Mail className="text-green-500 w-5 h-5" />
-                <span>aifa.steelx@aiifa.org</span>
+                <span>aiifa.steelx@aiifa.org</span>
               </li>
             </ul>
           </div>
