@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import AiifaExhibitor from './pages/AiifaExhibitor/AiifaExhibitor'
 import AiifaInviteeDelegate from './pages/AiifaInviteeDelegate/AiifaInviteeDelegate'
 import AiifaAdvertisementForm from './pages/AiifaAdvertisementForm/AiifaAdvertisementForm'
+import Exhibitors from './pages/Exhibitors/Exhibitors'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/aiifa-delegate" element={<AiifaExhibitor />} />
         <Route path="/aiifa-invitee-delegate" element={<AiifaInviteeDelegate />} />
         <Route path="/aiifa-advertisement-form" element={<AiifaAdvertisementForm />} />
+        <Route path="/aiifa-exhibitors" element={<Exhibitors />} />
       </Routes>
       <Footer />
     </Router>
