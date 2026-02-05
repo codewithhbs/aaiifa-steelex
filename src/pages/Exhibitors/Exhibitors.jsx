@@ -279,22 +279,24 @@ const Exhibitors = () => {
                     : "aspect-4/3"
                 } bg-white`}
               >
-                <img
+                <a href={item.image} target="_blank" rel="noopener noreferrer">
+                  <img
                   src={item.image}
                   alt={item.name}
                   className="w-full h-full object-contain p-6"
                 />
+                </a>
               </div>
 
               {/* Content */}
               <div className="px-6 pb-4 pt-2">
-                <span
+                {/* <span
                   className={`inline-block mb-3 px-3 py-1 text-xs font-medium rounded-full absolute top-4 left-4 ${
                     badgeStyle[item.category]
                   }`}
                 >
                   {item.category}
-                </span>
+                </span> */}
 
                 <h3 className="text-base font-semibold text-gray-800 leading-snug">
                   {item.name}
