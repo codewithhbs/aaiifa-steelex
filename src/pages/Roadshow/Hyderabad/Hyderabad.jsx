@@ -90,7 +90,7 @@ const Hyderabad = () => {
             29 July – 01 August 2025 · Hyderabad, India
           </p>
 
-          {/* <p className="mt-4 text-gray-500 max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-4 text-gray-500 max-w-3xl mx-auto leading-relaxed">
             The Hyderabad Roadshow 2025 served as a strategic industrial
             networking platform, bringing together leading manufacturers, steel
             innovators, infrastructure companies, and technology providers. The
@@ -98,7 +98,7 @@ const Hyderabad = () => {
             chain collaborations, and live product demonstrations — enabling
             meaningful business connections across South India’s industrial
             ecosystem.
-          </p> */}
+          </p>
         </div>
 
         {/* ================= PDF SECTION ================= */}

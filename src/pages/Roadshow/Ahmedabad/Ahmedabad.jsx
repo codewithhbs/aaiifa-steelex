@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 
 // Ahmedabad Roadshow gallery (online images)
 const ahmedabad = [
-  {
-    id: 1,
-    name: "Ahmedabad Roadshow - 02 September 2025",
-    image:
-      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770186556/Ahmedabad_Roadshow_02-09-2025_xvm9xe.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Ahmedabad Roadshow - 02 September 2025",
+  //   image:
+  //     "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770186556/Ahmedabad_Roadshow_02-09-2025_xvm9xe.jpg",
+  // },
   {
     id: 2,
     name: "Ahmedabad Roadshow - 02 September 2025",
@@ -52,12 +52,28 @@ const Ahmedabad = () => {
           <p className="mt-2 text-gray-600 font-medium">
             02 September 2025 · Ahmedabad
           </p>
-          <p className="mt-4 text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            The Ahmedabad Roadshow 2025 brought together leading industrial
-            companies, manufacturers, and solution providers on a single
-            platform. The event focused on innovation, networking, and
-            showcasing advanced technologies, creating meaningful engagement
-            between exhibitors and industry professionals.
+          <p className="mt-4 text-gray-500 max-w-3xl mx-auto leading-relaxed">
+            The Ahmedabad Roadshow 2025, held under the banner of
+            <span className="font-medium text-gray-700">
+              {" "}
+              “A Steel Mahakumbh – Road Show”
+            </span>
+            , was organised by the AIIFA – Sustainable Steel Manufacturers
+            Association on
+            <span className="font-medium"> 02 September 2025</span> at
+            <span className="font-medium"> Hyatt Vastrapur, Ahmedabad</span>.
+            The evening roadshow, commencing from 7:00 PM onwards, focused on
+            key industry themes including Green Steel, Energy Efficiency,
+            Skilling initiatives, Draft BIS 1786, and the promotion of
+            STEELEX-2025. The event featured insightful sessions by industry
+            leaders and experts, with
+            <span className="font-medium">
+              {" "}
+              Mr. Parmjeet Singh (Director, NISST)
+            </span>{" "}
+            as the Guest of Honour, fostering meaningful dialogue on innovation,
+            sustainability, and future growth of India’s steel manufacturing
+            ecosystem.
           </p>
         </div>
 

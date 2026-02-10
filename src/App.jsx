@@ -14,6 +14,7 @@ import Jalna from './pages/Roadshow/Jalna/Jalna'
 import Kolkata from './pages/Roadshow/Kolkata/Kolkata'
 import Raipur from './pages/Roadshow/Raipur/Raipur'
 import Layout from './pages/Layout/Layout'
+import UpcomingEvent from './pages/UpcomingEvent/UpcomingEvent'
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/roadshow/kolkata" element={<Kolkata />} />
         <Route path="/roadshow/raipur" element={<Raipur />} />
         <Route path="/aiifa-layout" element={<Layout />} />
+        <Route path="/upcoming-event" element={<UpcomingEvent />} />
       </Routes>
       <Footer />
     </Router>
