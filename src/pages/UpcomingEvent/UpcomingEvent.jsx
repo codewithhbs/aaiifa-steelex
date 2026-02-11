@@ -13,9 +13,9 @@ const UpcomingEvent = () => {
             alt="AIIFA SteelEx"
             className=" h-auto mb-4"
           />
-          <h2 className="text-2xl font-semibold text-gray-700">
+          {/* <h2 className="text-2xl font-semibold text-gray-700">
             AIIFA SteelEx
-          </h2>
+          </h2> */}
         </div>
 
         {/* 🔷 Main Card */}
@@ -64,7 +64,7 @@ const UpcomingEvent = () => {
                 "Collaborate with Policymakers on India’s Net Zero and sustainable growth roadmap",
                 "Prepare for the Future with insights on CBAM compliance and green financing opportunities",
                 "Enhance Brand Visibility within the national and international steel ecosystem",
-                "Be a catalyst in shaping a cleaner, resilient, and globally competitive Indian steel industry",
+                // "Be a catalyst in shaping a cleaner, resilient, and globally competitive Indian steel industry",
               ].map((item, i) => (
                 <div
                   key={i}
@@ -77,6 +77,8 @@ const UpcomingEvent = () => {
               ))}
 
             </div>
+
+            <h4 className="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium mt-5 text-center">Be a catalyst in shaping a cleaner, resilient, and globally competitive Indian steel industry</h4>
           </div>
 
         </div>
