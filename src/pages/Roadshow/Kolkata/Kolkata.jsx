@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 
 // Ahmedabad Roadshow gallery (online images)
 const kolkata = [
-  {
-    id: 1,
-    name: "Kolkata Roadshow - 20 Augest 2025",
-    image:
-      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770285021/WhatsApp_Image_2025-08-17_at_8.56.09_PM_m1ozcy.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Kolkata Roadshow - 20 Augest 2025",
+  //   image:
+  //     "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770285021/WhatsApp_Image_2025-08-17_at_8.56.09_PM_m1ozcy.jpg",
+  // },
   {
     id: 2,
     name: "Kolkata Roadshow - 20 Augest 2025",
@@ -58,13 +58,19 @@ const Kolkata = () => {
           <p className="mt-2 text-gray-600 font-medium">
             20 Augest 2025 · Kolkata
           </p>
-          {/* <p className="mt-4 text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            The Ahmedabad Roadshow 2025 brought together leading industrial
-            companies, manufacturers, and solution providers on a single
-            platform. The event focused on innovation, networking, and
-            showcasing advanced technologies, creating meaningful engagement
-            between exhibitors and industry professionals.
-          </p> */}
+          <p className="mt-4 text-gray-500 max-w-2xl mx-auto leading-relaxed">
+            The “Steel Mahakumbh – Road Show” was organized by AIIFA –
+            Sustainable Steel Manufacturers Association under the aegis of the
+            Ministry of Steel and UNDP. The event was held on 19th August 2025
+            at JW Marriott, Kolkata (Bigmint Event). The roadshow focused on key
+            industry themes including Green Steel, Energy Efficiency, Skilling,
+            Draft BIS 1786, and promotion of Mahakumbh SteelEx-2025. Mr.
+            Parmjeet Singh (Director, NISST) attended as Guest of Honour, while
+            Mr. Rishabh Gupta (Bigmint) moderated the session. Industry leaders
+            participated in a panel discussion highlighting sustainable
+            manufacturing, policy alignment, and future growth of the steel
+            sector through technology and efficiency improvements.
+          </p>
         </div>
 
         {/* Gallery Grid */}

@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 
 // Raipur Roadshow gallery (online images)
 const raipur = [
-  {
-    id: 1,
-    name: "Raipur Roadshow - 23 July 2025",
-    image:
-      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770287068/WELCOME_FLYER_d2gqjr.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Raipur Roadshow - 23 July 2025",
+  //   image:
+  //     "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770287068/WELCOME_FLYER_d2gqjr.jpg",
+  // },
   {
     id: 2,
     name: "Raipur Roadshow - 23 July 2025",
@@ -48,65 +48,71 @@ const raipur = [
 
 const Raipur = () => {
   useEffect(() => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    }, []);
-    return (
-      <section className="bg-[#EEF6EE] py-14 px-4 sm:px-6 lg:px-12">
-        <div className="max-w-7xl mx-auto">
-          {/* Header */}
-          <div className="mb-12 text-center">
-            <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900">
-              Raipur Roadshow
-            </h2>
-            <p className="mt-2 text-gray-600 font-medium">
-              23 July - 28 July 2025 · Raipur
-            </p>
-            {/* <p className="mt-4 text-gray-500 max-w-2xl mx-auto leading-relaxed">
-              The Raipur Roadshow 2025 brought together leading industrial
-              companies, manufacturers, and solution providers on a single
-              platform. The event focused on innovation, networking, and
-              showcasing advanced technologies, creating meaningful engagement
-              between exhibitors and industry professionals.
-            </p> */}
-          </div>
-  
-          {/* Gallery Grid */}
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            {raipur.map((item) => (
-              <div
-                key={item.id}
-                className="rounded-2xl border border-gray-200 bg-gray-50 overflow-hidden relative shadow-md hover:shadow-xl transition-shadow duration-300"
-              >
-                {/* Image */}
-                <div
-                  className={`${
-                    item.orientation === "portrait" ? "aspect-3/4" : "aspect-4/3"
-                  } bg-white`}
-                >
-                  <a href={item.image} target="_blank" rel="noopener noreferrer">
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="w-full h-full object-contain p-6"
-                    />
-                  </a>
-                </div>
-  
-                {/* Content */}
-                <div className="px-6 pb-4 pt-2">
-                  <h3 className="text-base font-semibold text-gray-800 leading-snug">
-                    {item.name}
-                  </h3>
-                </div>
-              </div>
-            ))}
-          </div>
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
+  return (
+    <section className="bg-[#EEF6EE] py-14 px-4 sm:px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="mb-12 text-center">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900">
+            Raipur Roadshow
+          </h2>
+          <p className="mt-2 text-gray-600 font-medium">
+            23 July - 28 July 2025 · Raipur
+          </p>
+          <p className="mt-4 text-gray-500 max-w-2xl mx-auto leading-relaxed">
+            The Steel Mahakumbh Road Show was organized by AIIFA – Sustainable
+            Steel Manufacturers Association as part of the promotion for AIIFA
+            SteelEx-2025, scheduled for 19–20 September 2025 at the Bombay
+            Exhibition Center, Goregaon, Mumbai. The Raipur edition of the
+            roadshow was held on 22nd July 2025 at Sayaji Hotel, Raipur,
+            focusing on key industry themes including Green Steel, Energy
+            Efficiency, Skilling, Draft BIS 1786, and Mahakumbh SteelEx-2025
+            promotion. The event brought together industry stakeholders,
+            supported by regional associations, to promote sustainable steel
+            manufacturing practices, policy awareness, and collaboration within
+            the steel sector.
+          </p>
         </div>
-      </section>
-    );
-  };
+
+        {/* Gallery Grid */}
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+          {raipur.map((item) => (
+            <div
+              key={item.id}
+              className="rounded-2xl border border-gray-200 bg-gray-50 overflow-hidden relative shadow-md hover:shadow-xl transition-shadow duration-300"
+            >
+              {/* Image */}
+              <div
+                className={`${
+                  item.orientation === "portrait" ? "aspect-3/4" : "aspect-4/3"
+                } bg-white`}
+              >
+                <a href={item.image} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-full object-contain p-6"
+                  />
+                </a>
+              </div>
+
+              {/* Content */}
+              <div className="px-6 pb-4 pt-2">
+                <h3 className="text-base font-semibold text-gray-800 leading-snug">
+                  {item.name}
+                </h3>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Raipur;

@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 
 const hyderabad = [
-  {
-    id: 1,
-    name: "Jalna Roadshow - 30 May 2025",
-    image:
-      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770278175/Janta_Nayak_Press_Release_30-05-25_tieuge.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Jalna Roadshow - 30 May 2025",
+  //   image:
+  //     "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770278175/Janta_Nayak_Press_Release_30-05-25_tieuge.jpg",
+  // },
   {
     id: 1,
     name: "Jalna Roadshow - 02 June 2025",
@@ -43,12 +43,12 @@ const hyderabad = [
     image:
       "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770278447/WhatsApp_Image_2025-06-02_at_4.42.50_PM_wh8rji.jpg",
   },
-  {
-    id: 7,
-    name: "Jalna Roadshow - 02 June 2025",
-    image:
-      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770278475/WhatsApp_Image_2025-07-19_at_11.02.24_AM_cqwpwi.jpg",
-  },
+  // {
+  //   id: 7,
+  //   name: "Jalna Roadshow - 02 June 2025",
+  //   image:
+  //     "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770278475/WhatsApp_Image_2025-07-19_at_11.02.24_AM_cqwpwi.jpg",
+  // },
   //   {
   //     id: 8,
   //     name: "Jalna Roadshow - 02 June 2025",
@@ -63,11 +63,6 @@ const pdfs = [
     title: "Jalna Road Show Event Brochure",
     url: "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770279102/Flyers_1__compressed_c3huzp.pdf",
   },
-  //   {
-  //     id: 2,
-  //     title: "State Visit Flyer – AIIFA Jalna",
-  //     url: "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770276746/State_Visit_Flyer_AIIFA-_Hyderbad_zh7xnv.pdf",
-  //   },
 ];
 
 const Jalna = () => {
@@ -90,19 +85,27 @@ const Jalna = () => {
             30 May – 02 June 2025 · Jalna, India
           </p>
 
-          {/* <p className="mt-4 text-gray-500 max-w-3xl mx-auto leading-relaxed">
-              The Hyderabad Roadshow 2025 served as a strategic industrial
-              networking platform, bringing together leading manufacturers, steel
-              innovators, infrastructure companies, and technology providers. The
-              roadshow highlighted next-generation manufacturing solutions, supply
-              chain collaborations, and live product demonstrations — enabling
-              meaningful business connections across South India’s industrial
-              ecosystem.
-            </p> */}
+          <p className="mt-4 text-gray-500 max-w-3xl mx-auto leading-relaxed">
+            The press release highlights that a conference was jointly organized
+            by AIIFA, NISST, SMM, and the Jalna Steel Manufacturing Association
+            to position Jalna as a key hub in India’s steel industry through a
+            “Green Revolution” in steel manufacturing. The central theme was
+            that just as India witnessed a Green Revolution in agriculture, the
+            steel sector must now move toward environmentally sustainable
+            production — with Jalna leading this transformation through Green
+            Steel technologies. Industry leaders, experts, and entrepreneurs
+            participated in the event and emphasized the adoption of modern
+            manufacturing technologies, energy efficiency, reduction in carbon
+            emissions, and sustainable industrial growth. Speakers also called
+            for stronger government support and policy assistance for the steel
+            sector. The overall objective of the conference was to develop Jalna
+            into a leading center for green steel manufacturing and encourage
+            the industry to adopt eco-friendly, future-ready technologies.
+          </p>
         </div>
 
         {/* ================= PDF SECTION ================= */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
             Event Brochures & Flyers
           </h3>
@@ -113,17 +116,14 @@ const Jalna = () => {
                 key={pdf.id}
                 className="group w-full max-w-md mx-auto rounded-2xl bg-white shadow-md hover:shadow-xl border p-6 transition"
               >
-                {/* PDF Icon */}
                 <div className="flex items-center justify-center h-28 rounded-xl bg-red-50 mb-4">
                   <span className="text-5xl">📄</span>
                 </div>
 
-                {/* Title */}
                 <h4 className="text-gray-800 font-semibold text-center mb-4">
                   {pdf.title}
                 </h4>
 
-                {/* Buttons */}
                 <div className="flex gap-3 justify-center">
                   <a
                     href={pdf.url}
@@ -145,7 +145,7 @@ const Jalna = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Gallery Grid */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">

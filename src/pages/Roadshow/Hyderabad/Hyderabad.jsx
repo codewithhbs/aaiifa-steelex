@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 
 const hyderabad = [
-  {
-    id: 1,
-    name: "Hyderabad Roadshow - 29 July 2025",
-    image:
-      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770276571/WhatsApp_Image_2025-07-29_at_1.46.52_PM_dhyx8c.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Hyderabad Roadshow - 29 July 2025",
+  //   image:
+  //     "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770276571/WhatsApp_Image_2025-07-29_at_1.46.52_PM_dhyx8c.jpg",
+  // },
   {
     id: 1,
     name: "Hyderabad Roadshow - 01 August 2025",
@@ -102,7 +102,7 @@ const Hyderabad = () => {
         </div>
 
         {/* ================= PDF SECTION ================= */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
             Event Brochures & Flyers
           </h3>
@@ -113,17 +113,14 @@ const Hyderabad = () => {
                 key={pdf.id}
                 className="group rounded-2xl bg-white shadow-md hover:shadow-xl border p-6 transition"
               >
-                {/* PDF Icon */}
                 <div className="flex items-center justify-center h-28 rounded-xl bg-red-50 mb-4">
                   <span className="text-5xl">📄</span>
                 </div>
 
-                {/* Title */}
                 <h4 className="text-gray-800 font-semibold text-center mb-4">
                   {pdf.title}
                 </h4>
 
-                {/* Buttons */}
                 <div className="flex gap-3 justify-center">
                   <a
                     href={pdf.url}
@@ -145,7 +142,7 @@ const Hyderabad = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Gallery Grid */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
