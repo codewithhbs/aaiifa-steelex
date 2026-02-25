@@ -53,7 +53,7 @@ const exhibitors = [
     name: "Inphase Power Technologies Pvt. Ltd",
     category: "Titanium",
     image:
-      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1770122344/Rashmi_fuwihz.jpg",
+      "https://res.cloudinary.com/dxvbzgdgw/image/upload/v1772013294/7._Inphase_Power_Technologies_Pvt._Ltd_1_ekbe93.jpg",
     orientation: "landscape",
   },
   {
