@@ -1,4 +1,3 @@
-import React from "react";
 import handk from "../../assets/images/exhibitors/h&k.JPG";
 
 const exhibitors = [

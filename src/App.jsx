@@ -15,6 +15,7 @@ import Kolkata from './pages/Roadshow/Kolkata/Kolkata'
 import Raipur from './pages/Roadshow/Raipur/Raipur'
 import Layout from './pages/Layout/Layout'
 import UpcomingEvent from './pages/UpcomingEvent/UpcomingEvent'
+import AiifaExhibitor2024 from './pages/AiifaExhibitor2024/AiifaExhibitor2024'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aiifa-exhibitor" element={<AiifaExhibitor />} />
+        <Route path="/aiifa-exhibitor-2024" element={<AiifaExhibitor2024 />} />
         <Route path="/aiifa-visitors" element={<AiifaExhibitor />} />
         <Route path="/aiifa-delegate" element={<AiifaExhibitor />} />
         <Route path="/aiifa-invitee-delegate" element={<AiifaInviteeDelegate />} />

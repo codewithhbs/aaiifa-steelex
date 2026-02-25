@@ -127,7 +127,7 @@ const Header = () => {
                     >
                       <div className="w-48 rounded-2xl bg-white shadow-2xl border py-3">
                         <a
-                          href="#"
+                          href="/aiifa-exhibitor-2024"
                           className="block px-5 py-2 hover:bg-gray-100"
                         >
                           Exhibitors
