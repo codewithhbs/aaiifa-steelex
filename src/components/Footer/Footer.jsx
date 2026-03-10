@@ -119,6 +119,16 @@ const Footer = () => {
                   AIIFA STEELEX 2025 Partners
                 </a>
               </li>
+              <li>
+                <a
+                  href={"https://res.cloudinary.com/dxvbzgdgw/image/upload/v1773136213/Brochure_Bharat_Buildcon_2026_k05cd1.pdf"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-green-500"
+                >
+                  Download brouchure of Bharat Buildcon 2026
+                </a>
+              </li>
             </ul>
           </div>
 
