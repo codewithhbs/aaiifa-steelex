@@ -42,7 +42,7 @@ const Home = () => {
 
             {/* Clickable Image */}
             <img
-              src="https://res.cloudinary.com/duxsqzrot/image/upload/v1770712063/WhatsApp_Image_2026-02-09_at_12.50.25_orre0u.jpg"
+              src="https://res.cloudinary.com/dxvbzgdgw/image/upload/v1775717738/postponement_of_Bharat_Steel_2026_1__page-0001_eggtco.jpg"
               alt="Popup"
               onClick={handleRedirect}
               className="w-full h-auto rounded-xl shadow-2xl cursor-pointer"
